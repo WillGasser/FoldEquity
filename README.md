@@ -43,7 +43,6 @@ See below for quickstart instructions. Full documentation available at [docs.Fol
 
 ### Prerequisites
 - **Tesseract OCR** (Required for text extraction):
-  ```bash
   # Windows: Download from https://github.com/UB-Mannheim/tesseract/wiki
   # Mac:
   brew install tesseract
