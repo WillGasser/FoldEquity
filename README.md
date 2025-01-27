@@ -30,6 +30,17 @@ See below for quickstart instructions. Full documentation available at [docs.Fol
 <details open>
 <summary>Installation</summary>
 
+# From Source
+    ```bash
+    git clone https://github.com/WillGasser/PokerVision.git
+    cd PokerVision
+    pip install -r requirements.txt
+
+    conda create -n pokervision python=3.10
+    conda activate pokervision
+    conda install -c conda-forge ultralytics
+    pip install pokervision
+
 ### Prerequisites
 - **Tesseract OCR** (Required for text extraction):
   ```bash
@@ -41,15 +52,6 @@ See below for quickstart instructions. Full documentation available at [docs.Fol
 
 
   # PyPI (Recommended)
-pip install ultralytics opencv-python pytesseract  # Core dependencies
-pip install pokervision
+    pip install ultralytics opencv-python pytesseract  # Core dependencies
+    pip install pokervision
 
-# From Source
-git clone https://github.com/yourusername/PokerVision.git
-cd PokerVision
-pip install -r requirements.txt
-
-conda create -n pokervision python=3.10
-conda activate pokervision
-conda install -c conda-forge ultralytics
-pip install pokervision
