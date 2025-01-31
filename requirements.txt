@@ -1,0 +1,23 @@
+# Core Computer Vision
+mss==9.0.1            # Fast screen capture
+opencv-python==4.9.0.80  # Image processing
+ultralytics==8.2.25   # YOLOv8 models
+torch==2.3.0          # PyTorch for ML
+
+# OCR & Text Handling
+pytesseract==0.3.10   # Text extraction
+easyocr==1.7.5        # Alternative OCR
+
+# Automation & UI
+pyautogui==1.0.0      # Input simulation
+pydirectinput==1.1.2  # Low-level input (Windows)
+
+# Poker Logic
+pokerlib==4.0.0       # Modern poker hand evaluation
+poker-odds==3.0.2     # Probability calculations
+
+# Utilities
+numpy==1.26.4         # Array operations
+loguru==0.7.2         # Clean logging
+python-dotenv==1.0.0  # Environment variables
+tqdm==4.66.2          # Progress bars
