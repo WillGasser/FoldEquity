@@ -122,7 +122,7 @@ def run_capture(output_path="raw_frames/"):
         print(f"Saved {output_file}")
 
         frame += 1
-        time.sleep(0.1)
+        time.sleep(0.5)
 
 if __name__ == "__main__":
     run_capture()
